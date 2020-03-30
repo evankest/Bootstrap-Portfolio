@@ -10,6 +10,8 @@
 
     <title>Bootstrap Portolio</title>
 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"
+
     <!-- Bootstrap CDN -->
     <link
       rel="stylesheet"
@@ -29,15 +31,25 @@
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Erik van Kesteren</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#"><strong>Erik van Kesteren</strong></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html"
+              >About <span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="Portfolio.html">Portfolio</a>
@@ -45,21 +57,74 @@
           <li class="nav-item">
             <a class="nav-link" href="Contact.html">Contact</a>
           </li>
-          
         </ul>
-       
       </div>
     </nav>
 
     <div class="container">
-      <h1>About Me</h1>
-      <img class = "float-left" src = "assets/images/Erik.jpg" />
-      <p class = "float-left">My name is Erik.  Blah blah blah
- 
-      </p>
+
+      <section id="main-bio" class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h2>About Me</h2>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-12">
+          <img id="my-picture" src="assets/images/Erik.jpg" alt="Erik van Kesteren">
+        </div>
+
+        <div class="col-lg-9 col-md-9 col-sm-12">
+          <p>My name is Erik. I'm originally from Denver, Colorado. My family moved
+          to New Mexico when I was seven. I lived on the Navajo Indian Reservation
+          until I was fourteen. We then moved to Texas, where I went to High
+          School.  After High School, I joined the Army and spent time in Maryland and Germany.  Once I was done with the Army I moved back to Texas where I continued going to College.  In 1994 I moved to Seattle.
+          </div>
+      </section>
+
+      <div class="col-lg-4 col-md-3 col-sm-12">
+        <h2 class="travel-pictures">Travel Photos</h2>
+
+      </div>
+      
+     
+
+      <div class="row mx-auto mt-2">
+        <div class="col-lg-4 col-md-3 col-sm-12" >
+          <img class="picture img-fluid" src="assets/images/Buddha Ayothaya Thailand 2018.jpg" alt="Ayothaya, Thailand">
+          <small>Ayothaya, Thailand</small>
+        </div>
+
+        <div class="col-lg-4 col-md-3 col-sm-12">
+          <img class="picture img-fluid" src="assets/images/Giant Buddha Phuket Thailand 2018.jpg" alt="Buddha, Phuket">
+        </div>
+
+        <div class="col-lg-4 col-md-3 col-sm-12">
+          <img class="picture img-fluid" src="assets/images/Jai Fai Michelin Meal Bangkok Thailand 2018.jpg" alt="Jai Fai">
+        </div>
+      </div>
+
+      <div class="row mx-auto mt-2">
+        <div class="col-lg-4 col-md-3 col-sm-12" >
+          <img class="picture img-fluid" src="assets/images/Elephant Sanctuary Phuket Thailand 2018.jpg" alt="Elephant">
+        </div >
+        <div class="col-lg-4 col-md-3 col-sm-12" >
+          <img class="picture img-fluid" src="assets/images/Ik Kil Cenotes 2019.jpg" alt="Ik Kil">
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-12" >
+          <img class="picture img-fluid" src="assets/images/Isla Mujeres North Shore 2019 Sunset.jpg" alt="Isla Mujeres">
+        </div>
+      </div> 
+
+      <div class="row mx-auto mt-2">
+        <div class="col-lg-4 col-md-3 col-sm-12" >
+          <img class="picture img-fluid" src="assets/images/Chichen Itza 2019.jpg" alt="Chichen Itza">
+        </div >
+        <div class="col-lg-4 col-md-3 col-sm-12" >
+          <img class="picture img-fluid" src="assets/images/Red wood Forest 2019.jpg" alt="Red Wood Forest">
+        </div>
+        <div class="col-lg-4 col-md-3 col-sm-12" >
+          <img class="picture img-fluid" src="assets/images/van Gogh MoMA New York 2019.jpg" alt="Starry Night">
+        </div>
 
     </div>
-
-
   </body>
 </html>

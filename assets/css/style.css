@@ -1,0 +1,16 @@
+
+
+#my-picture {
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4aaaa5;
+}
+
+#travel-pictures {
+    display: block;
+    margin:0 auto;
+}
