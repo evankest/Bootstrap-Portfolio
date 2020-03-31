@@ -1,16 +1,71 @@
 
-
-#my-picture {
-    max-height: 300px;
-    display: block;
-    margin: 0 auto;
+p {
+    color: #777777;
+    background-color: #ffffff;
+    border: solid 3px #dddddd;
+    padding: 10px;
+    font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-header {
+small {
+    color: yellow;
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+}
+
+#my-picture {
+    /* max-height: 300px; */
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.image-wrapper {
+    padding: 0;
+    border: 1px solid black;
+    position: relative;
+}
+
+.brightness {
+    background-color: white;
+    display: inline-block;
+}
+
+.brightness img:hover {
+    opacity: .5;
+}
+
+.h2-wrapper-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h1 {
     background-color: #4aaaa5;
+    padding: 10px;
+}
+
+h2 {
+    color:black;
+    border-style: solid;
+    border-width: 3px;
+    border-color:#cccccc;
+    padding: 10px;
+    background-color:#4aaaa5
 }
 
 #travel-pictures {
     display: block;
     margin:0 auto;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+body {
+    background-image: url("../images/geometric-leaves.png");
 }
